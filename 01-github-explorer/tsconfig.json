@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],                                        
-    "jsx": "react-jsx",                                
+    "lib": ["dom", "dom.iterable", "esnext"],     // add algumas funcionalidades. Pode proporcionar imports                                   
+    "jsx": "react-jsx",  // para entender que vai escrever html dentro do js                              
     "moduleResolution": "node",                       
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "allowJs": true,                                  
+    "allowJs": true,      // diz que pode ter arquivos js e ts                            
     "noEmit": true,                                   
     "allowSyntheticDefaultImports": true,             
     "esModuleInterop": true,                             
@@ -13,5 +13,5 @@
     "strict": true,                                      
     "skipLibCheck": true                                 
   },
-  "include": ["src"]
+  "include": ["src"] // para dizer q tudo está no src
 }
