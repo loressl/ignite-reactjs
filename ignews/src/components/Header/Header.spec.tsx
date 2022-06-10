@@ -19,11 +19,14 @@ jest.mock('next-auth/react', () => {
     }
 })
 
-describe('Header component', () => {
+describe('Header', () => {
     it('renders correctly', () =>{
         render(
             <Header/>
         )
+
+        // disponibiliza uma url que mostra quais métodos podem ser utilizados nos testes
+        screen.logTestingPlaygroundURL()
     
         expect(screen.getByText('Home')).toBeInTheDocument()
         expect(screen.getByText('Posts')).toBeInTheDocument()

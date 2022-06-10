@@ -14,7 +14,7 @@ jest.mock('next/router', () => {
     }
 })
 
-describe('ActiveLink component', () => {
+describe('ActiveLink', () => {
     it('renders correctly', () =>{
         // renderiza o componente de forma virtual
         // teste unitário desconexo da aplicação
