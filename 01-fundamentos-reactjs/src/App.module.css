@@ -8,3 +8,14 @@
     gap: 2rem;
     align-items: flex-start;
 }
+
+@media (max-width: 768px) {
+
+    html{
+        font-size: 87.5%; /*precisa q fique em porcentagem para acompanhar o redimensionamento no celular. Se for colocar o valor bruto (14px), fica fixo.*/
+    }
+
+    .wrapper{
+        grid-template-columns: 1fr;
+    }
+}
